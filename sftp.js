@@ -24,6 +24,8 @@ function ftp () {
     .then(function () {
       console.log('Downloading')
       .then(function (remotePath, localPath, session) {
+        console.log('test1')
+        // not accessing function
         console.log(remotePath, localPath, session)
         sftp.get(remotePath, localPath, session)
           .then(function (remotePath, localPath, session) {
