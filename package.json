@@ -1,0 +1,34 @@
+{
+  "name": "ftp",
+  "version": "1.0.0",
+  "description": "retreival of files from ftp server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "sftp": "node sftp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jphuisamen/ftp.git"
+  },
+  "author": "Johannes Petrus Huisamen <jphuisamen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jphuisamen/ftp/issues"
+  },
+  "homepage": "https://github.com/jphuisamen/ftp#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.8.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "sftp-promises": "^1.4.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.1",
+    "jsftp": "^1.5.5",
+    "ssh2": "^0.5.2"
+  }
+}
